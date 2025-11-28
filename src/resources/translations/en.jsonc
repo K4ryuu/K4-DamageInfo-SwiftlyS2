@@ -1,0 +1,31 @@
+{
+  // Summary lines shown in chat
+  "phrases.summary.startline": "▬▬▬▬▬▬▬▬▬▬▬▬▬ Statistics ▬▬▬▬▬▬▬▬▬▬▬▬▬",
+  "phrases.summary.dataline": "[lime]➜ [white]To: [[lime]{0} / {1} hits[white]] From: [[lightred]{2} / {3} hits[white]] - {4} [[lightred]{5}[white]]",
+  "phrases.summary.endline": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+
+  // Console damage messages
+  // {0} = player name, {1} = HP, {2} = Armor, {3} = HitGroup
+  "phrases.console.normal": "Damage Given To: {0} | HP {1} | Armor {2} | HitGroup: {3}",
+  "phrases.console.inverse": "Damage Taken From: {0} | HP {1} | Armor {2} | HitGroup: {3}",
+
+  // Status text
+  "phrases.dead": "DEAD",
+
+  // Hitgroup names
+  "phrases.hitgroup.body": "Body",
+  "phrases.hitgroup.head": "Head",
+  "phrases.hitgroup.chest": "Chest",
+  "phrases.hitgroup.stomach": "Stomach",
+  "phrases.hitgroup.leftarm": "Left Arm",
+  "phrases.hitgroup.rightarm": "Right Arm",
+  "phrases.hitgroup.leftleg": "Left Leg",
+  "phrases.hitgroup.rightleg": "Right Leg",
+  "phrases.hitgroup.neck": "Neck",
+  "phrases.hitgroup.gear": "Gear",
+  "phrases.hitgroup.unknown": "Unknown",
+
+  // Center HTML damage display
+  // {0} = hitgroup, {1} = armor damage, {2} = health damage
+  "phrases.center.html": "<font color=\"#FFA500\">Given Damage</font><br><font color=\"#00BFFF\">{1:D3}</font><font color=\"#FFFFFF\"> | </font><font color=\"#FF0000\">{2:D3}</font><br><font color=\"#FFA500\">{0}</font>"
+}

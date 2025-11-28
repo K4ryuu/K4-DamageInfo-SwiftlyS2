@@ -54,19 +54,18 @@ To use this server addon, you'll need the following dependencies installed:
 
 ## Configuration
 
-| Option              | Description                                              | Default |
-| ------------------- | -------------------------------------------------------- | ------- |
-| `RoundEndSummary`   | Show damage summary at round end                         | `true`  |
-| `AllowDeathPrint`   | Allow damage summary to be shown on death                | `true`  |
-| `ShowOnlyKiller`    | Show only killer in round end summary                    | `false` |
-| `ShowFriendlyFire`  | Show friendly fire damage in summary                     | `false` |
-| `ShowAllDamages`    | Show all damages from all players                        | `false` |
-| `CenterDamageInfo`  | Show center damage info on hit                           | `true`  |
-| `ConsoleDamageInfo` | Show console damage info on hit                          | `true`  |
-| `FFAMode`           | Free-for-all mode (show damage to teammates)             | `false` |
-| `NoRoundsMode`      | No rounds mode - clear damage on death instead of round  | `false` |
-| `CenterInfoTimeout` | Timeout for center damage info display (seconds)         | `3`     |
-| `CenterInfoFlags`   | Permission flags for center damage info (empty=everyone) | `[]`    |
+| Option              | Description                                             | Default |
+| ------------------- | ------------------------------------------------------- | ------- |
+| `RoundEndSummary`   | Show damage summary at round end                        | `true`  |
+| `AllowDeathPrint`   | Allow damage summary to be shown on death               | `true`  |
+| `ShowOnlyKiller`    | Show only killer in round end summary                   | `false` |
+| `ShowFriendlyFire`  | Show friendly fire damage in summary                    | `false` |
+| `ShowAllDamages`    | Show all damages from all players                       | `false` |
+| `CenterDamageInfo`  | Show center damage info on hit                          | `true`  |
+| `ConsoleDamageInfo` | Show console damage info on hit                         | `true`  |
+| `FFAMode`           | Free-for-all mode (show damage to teammates)            | `false` |
+| `NoRoundsMode`      | No rounds mode - clear damage on death instead of round | `false` |
+| `CenterInfoTimeout` | Timeout for center damage info display (seconds)        | `3`     |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

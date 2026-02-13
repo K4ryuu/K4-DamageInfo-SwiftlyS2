@@ -1,0 +1,35 @@
+{
+  // 聊天中显示的摘要行
+  "phrases.summary.startline": "▬▬▬▬▬▬▬▬▬▬▬▬▬ 伤害统计 ▬▬▬▬▬▬▬▬▬▬▬▬▬",
+  "phrases.summary.dataline": "[lime]➜ [white]造成: [[lime]{0} / {1} 命中[white]] 承受: [[lightred]{2} / {3} 命中[white]] - {4} [[lightred]{5}[white]]",
+  "phrases.summary.endline": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+
+  // 控制台伤害消息
+  // {0} = 玩家名称, {1} = 生命值, {2} = 护甲, {3} = 命中部位
+  "phrases.console.normal": "对 {0} 造成伤害 | 生命值 {1} | 护甲 {2} | 命中部位: {3}",
+  "phrases.console.inverse": "受到 {0} 的伤害 | 生命值 {1} | 护甲 {2} | 命中部位: {3}",
+
+  // 状态文本
+  "phrases.dead": "已阵亡",
+
+  // 命中部位名称
+  "phrases.hitgroup.body": "躯干",
+  "phrases.hitgroup.head": "头部",
+  "phrases.hitgroup.chest": "胸部",
+  "phrases.hitgroup.stomach": "腹部",
+  "phrases.hitgroup.leftarm": "左臂",
+  "phrases.hitgroup.rightarm": "右臂",
+  "phrases.hitgroup.leftleg": "左腿",
+  "phrases.hitgroup.rightleg": "右腿",
+  "phrases.hitgroup.neck": "颈部",
+  "phrases.hitgroup.gear": "装备",
+  "phrases.hitgroup.unknown": "未知",
+
+  // 屏幕中央 HTML 伤害显示
+  // {0} = 命中部位, {1} = 护甲伤害, {2} = 生命值伤害
+  "phrases.center.html": "<font color=\"#FFA500\">造成伤害</font><br><font color=\"#00BFFF\">{1:D3}</font><font color=\"#FFFFFF\"> | </font><font color=\"#FF0000\">{2:D3}</font><br><font color=\"#FFA500\">{0}</font>",
+
+  // 屏幕中央警告伤害显示（纯文本，最多3行，\n 换行）
+  // {0} = 命中部位, {1} = 护甲伤害, {2} = 生命值伤害
+  "phrases.center.alert": "===== 伤害 =====\n护甲: {1:D3} | 生命: {2:D3}\n[ {0} ]"
+}

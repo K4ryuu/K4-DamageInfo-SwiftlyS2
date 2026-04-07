@@ -1,0 +1,35 @@
+{
+  // Statistikos eilutės čate
+  "phrases.summary.startline": "▬▬▬▬▬▬▬▬▬▬▬▬▬ Statistika ▬▬▬▬▬▬▬▬▬▬▬▬▬",
+  "phrases.summary.dataline": "[lime]➜ [white]Padarei: [[lime]{0} / {1} hit[white]] Prasileidai: [[lightred]{2} / {3} hit[white]] - {4} [[lightred]{5}[white]]",
+  "phrases.summary.endline": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+
+  // Consolės damage žinutės
+  // {0} = žaidėjo vardas, {1} = HP, {2} = Armor, {3} = HitGroup
+  "phrases.console.normal": "Žala duota: {0} | HP {1} | Armor {2} | HitGroup: {3}",
+  "phrases.console.inverse": "Žala gauta iš: {0} | HP {1} | Armor {2} | HitGroup: {3}",
+
+  // Statusas
+  "phrases.dead": "NEGYVAS",
+
+  // Hitgroup pavadinimai
+  "phrases.hitgroup.body": "Kūnas",
+  "phrases.hitgroup.head": "Galva",
+  "phrases.hitgroup.chest": "Krūtinė",
+  "phrases.hitgroup.stomach": "Pilvas",
+  "phrases.hitgroup.leftarm": "Kairė ranka",
+  "phrases.hitgroup.rightarm": "Dešinė ranka",
+  "phrases.hitgroup.leftleg": "Kairė koja",
+  "phrases.hitgroup.rightleg": "Dešinė koja",
+  "phrases.hitgroup.neck": "Kaklas",
+  "phrases.hitgroup.gear": "Ekipuotė",
+  "phrases.hitgroup.unknown": "Nežinoma",
+
+  // Centro HTML damage rodymas
+  // {0} = hitgroup, {1} = armor damage, {2} = health damage
+  "phrases.center.html": "<font color=\"#FFA500\">Padaryta Žala</font><br><font color=\"#00BFFF\">{1:D3}</font><font color=\"#FFFFFF\"> | </font><font color=\"#FF0000\">{2:D3}</font><br><font color=\"#FFA500\">{0}</font>",
+
+  // Centro Alert damage rodymas (paprastas tekstas, max 3 eilutės, \n naujai eilutei)
+  // {0} = hitgroup, {1} = armor damage, {2} = health damage
+  "phrases.center.alert": "===== ŽALA =====\nArmor: {1:D3} | HP: {2:D3}\n[ {0} ]"
+}

@@ -31,5 +31,5 @@
 
   // Centro Alert damage rodymas (paprastas tekstas, max 3 eilutės, \n naujai eilutei)
   // {0} = hitgroup, {1} = armor damage, {2} = health damage
-  "phrases.center.alert": "===== ŽALA =====\nArmor: {1:D3} | HP: {2:D3}\n[ {0} ]"
+  "phrases.center.alert": "===== ŽALA =====\nŠarvai: {1:D3} | HP: {2:D3}\n[ {0} ]"
 }
